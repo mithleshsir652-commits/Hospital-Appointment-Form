@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Appointment Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+   <div class ="container">
+    <h2>Hospital Appointment Form </h2>
+    <form>
+        <label for ="Name">Patient Name</label>
+        <input type ="text">id="name" name ="name" required>
+
+          <label for = "Email">email</label>
+        <input type ="text">id="email" name ="email" required>
+
+          <label for = "phone">Phone Number</label>
+        <input type ="text">id="phone" name ="phone" required>
+
+          <label for = "department">department</label>
+        <select id ="departent">id="name" name ="department" required>
+            
+            <option value="">Select Department</option>
+            <option value="cardiology">cardiology</option>
+            <option value="neurology">nurology</option>
+            <option value="oncology">oncology</option>
+            <option value="other">Other</option>
+            </select>
+
+            <label for = "doctor">Preferred Doctor</label>
+        <input type ="doctor">id="doctor" name ="dctor" required>
+
+        <option value="">Select Doctor</option>
+            <option value="dr-mithlesh">Dr. Mithlesh</option>
+            <option value="dr-mahesh">Dr. Mahesh</option>
+            <option value="dr-vikash">Dr. Vikash</option>
+        </select>
+
+
+        <label for = "date">Date</label>
+        <input type ="date"id="date" name ="date" required>
+
+        <label for = "time">Appointment Time</label>
+        <input type ="time" id="time" name ="time" required>
+
+        <input type="submit" value="Book Appointment">
+
+
+
+
+
+
+    </form>
+
+   </div> 
+</body>
+</html>
